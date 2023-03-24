@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family= Peralta & display=swap");
+ @import url("https://fonts.googleapis.com/css2? family= Peralta & display=swap");
  
 *{ 
     margin: 0px; 
@@ -343,9 +343,18 @@ animation: spin 2.4s infinite linear;
 }
 .mail{ 
    font-size: 32px;
+   transition: 0.3s ease;
+}
+p .mail:hover{
+   color: #002661 ;
+
 }
 .tel{ 
+   transition: 0.3s ease;
    font-size: 32px;
+}
+ p .tel:hover{
+   color: #002661 ;
 }
 .mail::before{ 
 content: url("https://cdn-icons-png.flaticon.com/24/542/542689.png");
@@ -397,3 +406,4 @@ content: url("https://cdn-icons-png.flaticon.com/24/3059/3059502.png");
    border: #002661 3px   solid;
    border-bottom:   #002661 6px   solid;
  }
+  
