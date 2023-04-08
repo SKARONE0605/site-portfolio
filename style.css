@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2? family= Peralta & display=swap");
+  @import url("https://fonts.googleapis.com/css2? family= Peralta & display=swap");
  
 *{ 
     margin: 0px; 
@@ -41,7 +41,9 @@ h6{
  body{ 
    background:  linear-gradient( to right,#79F1A4, #0E5CAD);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
+ 
+    width: auto;
+   }
  .aboutme{ 
      text-align: start;
      font-size: 50px;
@@ -286,8 +288,9 @@ animation: spin 2.4s infinite linear;
    color:#D9D9D9;
 }
 .sites{ 
-   position: relative;
-   left :10px;
+    
+   
+ 
 }
  footer{ 
    background-color: #D9D9D9;
@@ -345,17 +348,15 @@ animation: spin 2.4s infinite linear;
    font-size: 32px;
    transition: 0.3s ease;
 }
-p .mail:hover{
-   color: #002661 ;
-
-}
+ 
+ 
 .tel{ 
    transition: 0.3s ease;
    font-size: 32px;
+ 
+    
 }
- p .tel:hover{
-   color: #002661 ;
-}
+ 
 .mail::before{ 
 content: url("https://cdn-icons-png.flaticon.com/24/542/542689.png");
 display: inline-block;
@@ -401,9 +402,25 @@ content: url("https://cdn-icons-png.flaticon.com/24/3059/3059502.png");
  footer{ 
    border: #002661 3px   solid;
    border-top:   #002661 6px   solid;
+   opacity: 0.8;
  }
  header{ 
    border: #002661 3px   solid;
    border-bottom:   #002661 6px   solid;
  }
+
+ header img{ 
+   margin: 5px;
+ }
+ .sites p{ 
+    text-align: start;
+ }
+ .hellop{ 
+   align-items: stretch;
+ }
+ .sites{ 
+   display: flex;
+   justify-content: center;
+ }
+  
   
